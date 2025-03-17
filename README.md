@@ -31,7 +31,7 @@ If doing repeated tests, you can reset the test by:
 Notes:
 
 - Some additional work should be done to productize this:
-  - Specifically the timers should be adjusted
+  - Adjust the timers
   - Pagesize on API requests
   - Supporting multiple approvals in same email
   - Making the syntax simplier for the approval email
