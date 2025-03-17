@@ -1,0 +1,14 @@
+[Unit]
+Description=MAB Approval Automation Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/mab-approval
+EnvironmentFile=/opt/mab-approval/.env
+ExecStart=/usr/bin/python3 /opt/mab-approval/email-check.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

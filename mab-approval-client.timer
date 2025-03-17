@@ -1,0 +1,10 @@
+[Unit]
+Description=Run MAB Approval Client Update Every 5 Minutes
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=5min
+Persistent=true
+
+[Install]
+WantedBy=timers.target

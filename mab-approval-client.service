@@ -1,0 +1,10 @@
+[Unit]
+Description=Execute MAB Approval Client Updates
+After=network.target
+
+[Service]
+Type=oneshot
+User=root
+WorkingDirectory=/opt/mab-approval
+EnvironmentFile=/opt/mab-approval/.env
+ExecStart=/bin/bash /opt/mab-approval/run-client-tasks.sh
