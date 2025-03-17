@@ -40,7 +40,7 @@ Notes:
   - Add some security to control who can send in approval requests
  
 - Some ideas that could be built off of this:
-  - This script assumes that there is now "Allow All" MAB rule and that all new unauthenticated clients will not have any initial access until approved.  Another version of this script could be built with the assumption that an "Allow All" MAB rule is in place and that devices will get INternet Only initially, will fingerprint, and then you could send more robust information in the email, i.e., what type of device it is, then move it to a more appropriate segment.
+  - This script assumes that there is no "Allow All" MAB rule and that all new unauthenticated clients will not have any initial access until approved.  Another version of this script could be built with the assumption that an "Allow All" MAB rule is in place and that devices will get INternet Only initially, will fingerprint, and then you could send more robust information in the email, i.e., what type of device it is, then move it to a more appropriate segment.
   - Have the email notification have buttons that send an API call direct to Nile (instead of replying to email)
   - Provide a revoke/disconnect option
   - Move away from email and build it to interact with other solutions (send/receive flow)
