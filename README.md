@@ -1,5 +1,5 @@
 # nile-mab-email-approval
-This set of scripts implements a MAB approval workflow leveraging email.  The process is as follows:
+This set of scripts implements a MAB approval workflow leveraging email.  This was written on a Raspberry Pi running Raspberry Pi OS.  The process is as follows:
 
 1.  Build and periodically update a DB with available segments, sites, buildings, etc
 2.  Check for new unauthorized clients every 5 minutes
