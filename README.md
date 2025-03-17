@@ -14,6 +14,15 @@ Install Instructions:
 - Enter parameters (for Nile Prod, API URL = https://u1.nile-global.cloud/api)
 - Enjoy!
 
+You will need the following to complete the script:
+- API URL (see above)
+- Tenant ID
+- API Key
+- Email address for receipient of new device notifications (typically an IT admin or group)
+- Email address where approvals will be sent (this will be the inbox the script will check, essentially, assign an account/inbox to the alerting script)
+- Email address new device notifications will be send from (should be the same as above)
+- Password for inbox where approvals will be sent.
+
 If doing repeated tests, you can reset the test by:
 
 1. Delete your wired devices from MAB, they will show up as unauthenticated again
