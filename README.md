@@ -38,6 +38,8 @@ Notes:
   - Error handling in syntax in reply email
   - Send a single email per new unauthorized client
   - Add some security to control who can send in approval requests
+  - Provide a confirmation email
+  - Add logging of approvals
  
 - Some ideas that could be built off of this:
   - This script assumes that there is no "Allow All" MAB rule and that all new unauthenticated clients will not have any initial access until approved.  Another version of this script could be built with the assumption that an "Allow All" MAB rule is in place and that devices will get Internet Only initially, will fingerprint, and then you could send more robust information in the email, i.e., what type of device it is, then move it to a more appropriate segment.
